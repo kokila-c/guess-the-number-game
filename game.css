@@ -1,0 +1,30 @@
+body {
+  background-image: url("images/game\ bg.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+p {
+  text-align: center;
+  font-size: large;
+}
+.btn {
+  height: 100px;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(133, 43, 43);
+  color: bisque;
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#win {
+  font-size: xx-large;
+  font-weight: 600;
+}
